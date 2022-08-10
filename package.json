@@ -1,0 +1,26 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "App de quiz hecha con el paradigma de programación orientado a objetos",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel -p 8000",
+    "build": "rm -rf dist && parcel build --no-source-maps --public-url .",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisAriza/quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisAriza/quiz/issues"
+  },
+  "homepage": "https://github.com/luisAriza/quiz#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}

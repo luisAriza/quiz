@@ -40,6 +40,7 @@ export default class UI {
    * @param {number} total Total questions
    */
   showProgress(currentIndex, total) {
-    document.getElementById("progress").innerHTML =;
+    const element = document.getElementById("progress");
+    element.innerHTML = `Questions: ${currentIndex} of ${total}`;
   }
 }

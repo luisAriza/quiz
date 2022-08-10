@@ -16,6 +16,7 @@ function renderPage(quiz, ui) {
       quiz.guess(currentChoice);
       renderPage(quiz, ui);
     });
+    ui.showProgress(quiz.questionsIndex + 1, quiz.questions.length);
   }
 }
 
